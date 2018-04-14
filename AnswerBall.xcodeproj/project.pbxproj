@@ -12,6 +12,8 @@
 		5ECF0F6F207FD37C007DDBD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF0F6D207FD37C007DDBD6 /* Main.storyboard */; };
 		5ECF0F71207FD382007DDBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF0F70207FD382007DDBD6 /* Assets.xcassets */; };
 		5ECF0F74207FD382007DDBD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF0F72207FD382007DDBD6 /* LaunchScreen.storyboard */; };
+		5ECF0F7C207FFA43007DDBD6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF0F7B207FFA43007DDBD6 /* Data.swift */; };
+		5ECF0F7E207FFCB8007DDBD6 /* shakesound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF0F7D207FFCB8007DDBD6 /* shakesound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5ECF0F70207FD382007DDBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ECF0F73207FD382007DDBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ECF0F75207FD382007DDBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECF0F7B207FFA43007DDBD6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5ECF0F7D207FFCB8007DDBD6 /* shakesound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shakesound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 				5ECF0F69207FD37C007DDBD6 /* AppDelegate.swift */,
 				5ECF0F6B207FD37C007DDBD6 /* ViewController.swift */,
 				5ECF0F6D207FD37C007DDBD6 /* Main.storyboard */,
+				5ECF0F7B207FFA43007DDBD6 /* Data.swift */,
 				5ECF0F70207FD382007DDBD6 /* Assets.xcassets */,
+				5ECF0F7D207FFCB8007DDBD6 /* shakesound.wav */,
 				5ECF0F72207FD382007DDBD6 /* LaunchScreen.storyboard */,
 				5ECF0F75207FD382007DDBD6 /* Info.plist */,
 			);
@@ -125,6 +131,7 @@
 				5ECF0F74207FD382007DDBD6 /* LaunchScreen.storyboard in Resources */,
 				5ECF0F71207FD382007DDBD6 /* Assets.xcassets in Resources */,
 				5ECF0F6F207FD37C007DDBD6 /* Main.storyboard in Resources */,
+				5ECF0F7E207FFCB8007DDBD6 /* shakesound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ECF0F6C207FD37C007DDBD6 /* ViewController.swift in Sources */,
+				5ECF0F7C207FFA43007DDBD6 /* Data.swift in Sources */,
 				5ECF0F6A207FD37C007DDBD6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
